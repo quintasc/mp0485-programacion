@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2692" moduleid="38164" modulename="quiz" contextid="53844">
+  <quiz id="2692">
+    <name>MP0485-TEST-Print + Variables + Scanner</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <timeopen>1730200920</timeopen>
+    <timeclose>1730203500</timeclose>
+    <timelimit>1800</timelimit>
+    <overduehandling>autosubmit</overduehandling>
+    <graceperiod>0</graceperiod>
+    <preferredbehaviour>deferredfeedback</preferredbehaviour>
+    <canredoquestions>0</canredoquestions>
+    <attempts_number>1</attempts_number>
+    <attemptonlast>0</attemptonlast>
+    <grademethod>1</grademethod>
+    <decimalpoints>2</decimalpoints>
+    <questiondecimalpoints>-1</questiondecimalpoints>
+    <reviewattempt>65536</reviewattempt>
+    <reviewcorrectness>0</reviewcorrectness>
+    <reviewmaxmarks>16</reviewmaxmarks>
+    <reviewmarks>16</reviewmarks>
+    <reviewspecificfeedback>0</reviewspecificfeedback>
+    <reviewgeneralfeedback>0</reviewgeneralfeedback>
+    <reviewrightanswer>0</reviewrightanswer>
+    <reviewoverallfeedback>0</reviewoverallfeedback>
+    <questionsperpage>1</questionsperpage>
+    <navmethod>sequential</navmethod>
+    <shuffleanswers>1</shuffleanswers>
+    <sumgrades>25.00000</sumgrades>
+    <grade>10.00000</grade>
+    <timecreated>1727671929</timecreated>
+    <timemodified>1759488030</timemodified>
+    <password></password>
+    <subnet></subnet>
+    <browsersecurity>-</browsersecurity>
+    <delay1>0</delay1>
+    <delay2>0</delay2>
+    <showuserpicture>0</showuserpicture>
+    <showblocks>0</showblocks>
+    <completionattemptsexhausted>0</completionattemptsexhausted>
+    <completionminattempts>0</completionminattempts>
+    <allowofflineattempts>0</allowofflineattempts>
+    <subplugin_quizaccess_seb_quiz>
+      <quizaccess_seb_quizsettings>
+        <quizid>2692</quizid>
+        <cmid>38164</cmid>
+        <templateid>0</templateid>
+        <requiresafeexambrowser>1</requiresafeexambrowser>
+        <showsebtaskbar>1</showsebtaskbar>
+        <showwificontrol>0</showwificontrol>
+        <showreloadbutton>1</showreloadbutton>
+        <showtime>1</showtime>
+        <showkeyboardlayout>1</showkeyboardlayout>
+        <allowuserquitseb>1</allowuserquitseb>
+        <quitpassword></quitpassword>
+        <linkquitseb></linkquitseb>
+        <userconfirmquit>1</userconfirmquit>
+        <enableaudiocontrol>0</enableaudiocontrol>
+        <muteonstartup>0</muteonstartup>
+        <allowcapturecamera>$@NULL@$</allowcapturecamera>
+        <allowcapturemicrophone>$@NULL@$</allowcapturemicrophone>
+        <allowspellchecking>0</allowspellchecking>
+        <allowreloadinexam>1</allowreloadinexam>
+        <activateurlfiltering>0</activateurlfiltering>
+        <filterembeddedcontent>0</filterembeddedcontent>
+        <expressionsallowed></expressionsallowed>
+        <regexallowed></regexallowed>
+        <expressionsblocked></expressionsblocked>
+        <regexblocked></regexblocked>
+        <showsebdownloadlink>1</showsebdownloadlink>
+        <allowedbrowserexamkeys>$@NULL@$</allowedbrowserexamkeys>
+        <timecreated>1730194582</timecreated>
+      </quizaccess_seb_quizsettings>
+    </subplugin_quizaccess_seb_quiz>
+    <quiz_grade_items>
+    </quiz_grade_items>
+    <question_instances>
+      <question_instance id="56390">
+        <quizid>2692</quizid>
+        <slot>1</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8153">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56391">
+        <quizid>2692</quizid>
+        <slot>2</slot>
+        <page>2</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8154">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56392">
+        <quizid>2692</quizid>
+        <slot>3</slot>
+        <page>3</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8155">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56393">
+        <quizid>2692</quizid>
+        <slot>4</slot>
+        <page>4</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8156">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56394">
+        <quizid>2692</quizid>
+        <slot>5</slot>
+        <page>5</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8157">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56395">
+        <quizid>2692</quizid>
+        <slot>6</slot>
+        <page>6</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8158">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56396">
+        <quizid>2692</quizid>
+        <slot>7</slot>
+        <page>7</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8159">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56397">
+        <quizid>2692</quizid>
+        <slot>8</slot>
+        <page>8</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8160">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56398">
+        <quizid>2692</quizid>
+        <slot>9</slot>
+        <page>9</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8161">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56399">
+        <quizid>2692</quizid>
+        <slot>10</slot>
+        <page>10</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8162">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56400">
+        <quizid>2692</quizid>
+        <slot>11</slot>
+        <page>11</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8163">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56401">
+        <quizid>2692</quizid>
+        <slot>12</slot>
+        <page>12</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8164">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56402">
+        <quizid>2692</quizid>
+        <slot>13</slot>
+        <page>13</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8165">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56403">
+        <quizid>2692</quizid>
+        <slot>14</slot>
+        <page>14</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8166">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56404">
+        <quizid>2692</quizid>
+        <slot>15</slot>
+        <page>15</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8167">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56405">
+        <quizid>2692</quizid>
+        <slot>16</slot>
+        <page>16</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8168">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56406">
+        <quizid>2692</quizid>
+        <slot>17</slot>
+        <page>17</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8169">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56407">
+        <quizid>2692</quizid>
+        <slot>18</slot>
+        <page>18</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8170">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56408">
+        <quizid>2692</quizid>
+        <slot>19</slot>
+        <page>19</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8171">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56409">
+        <quizid>2692</quizid>
+        <slot>20</slot>
+        <page>20</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8172">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56410">
+        <quizid>2692</quizid>
+        <slot>21</slot>
+        <page>21</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8173">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56411">
+        <quizid>2692</quizid>
+        <slot>22</slot>
+        <page>22</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8174">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56412">
+        <quizid>2692</quizid>
+        <slot>23</slot>
+        <page>23</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8175">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56413">
+        <quizid>2692</quizid>
+        <slot>24</slot>
+        <page>24</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8176">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+      <question_instance id="56414">
+        <quizid>2692</quizid>
+        <slot>25</slot>
+        <page>25</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_set_reference id="8177">
+          <usingcontextid>53844</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionscontextid>50554</questionscontextid>
+          <filtercondition>{"filter":{"category":{"name":"category","jointype":1,"values":[10131],"filteroptions":{"includesubcategories":false}}},"cmid":38164,"courseid":447,"jointype":2,"qpage":0,"qperpage":100,"sortdata":{"qbank_viewquestiontype__question_type_column":4,"mod_quiz__question__bank__question_name_text_column":4},"cat":"9753,50554","tabname":"questions"}</filtercondition>
+        </question_set_reference>
+      </question_instance>
+    </question_instances>
+    <sections>
+      <section id="2692">
+        <firstslot>1</firstslot>
+        <heading></heading>
+        <shufflequestions>1</shufflequestions>
+      </section>
+    </sections>
+    <feedbacks>
+      <feedback id="5699">
+        <feedbacktext></feedbacktext>
+        <feedbacktextformat>1</feedbacktextformat>
+        <mingrade>0.00000</mingrade>
+        <maxgrade>11.00000</maxgrade>
+      </feedback>
+    </feedbacks>
+    <overrides>
+    </overrides>
+    <grades>
+    </grades>
+    <attempts>
+    </attempts>
+  </quiz>
+</activity>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="13" moduleid="38371" modulename="vpl" contextid="54082">
+  <vpl id="13">
+    <name>Lliurament Pr06 - Ejercicios de Estructuras Condicionales (II) (ENTREGAS RETRASADAS)</name>
+    <shortdescription></shortdescription>
+    <intro></intro>
+    <introformat>1</introformat>
+    <startdate>1730197800</startdate>
+    <duedate>0</duedate>
+    <maxfiles>1</maxfiles>
+    <maxfilesize>0</maxfilesize>
+    <requirednet></requirednet>
+    <password></password>
+    <grade>100</grade>
+    <visiblegrade>0</visiblegrade>
+    <usevariations>0</usevariations>
+    <variationtitle></variationtitle>
+    <basedon>0</basedon>
+    <basedonname>$@NULL@$</basedonname>
+    <run>1</run>
+    <debug>0</debug>
+    <evaluate>1</evaluate>
+    <evaluateonsubmission>0</evaluateonsubmission>
+    <automaticgrading>0</automaticgrading>
+    <maxexetime>$@NULL@$</maxexetime>
+    <restrictededitor>0</restrictededitor>
+    <example>0</example>
+    <maxexememory>$@NULL@$</maxexememory>
+    <maxexefilesize>$@NULL@$</maxexefilesize>
+    <maxexeprocesses>$@NULL@$</maxexeprocesses>
+    <jailservers></jailservers>
+    <worktype>0</worktype>
+    <timemodified>1759488068</timemodified>
+    <freeevaluations>0</freeevaluations>
+    <reductionbyevaluation>0</reductionbyevaluation>
+    <sebrequired>0</sebrequired>
+    <sebkeys></sebkeys>
+    <runscript></runscript>
+    <debugscript></debugscript>
+    <evaluator>$@NULL@$</evaluator>
+    <run_mode>0</run_mode>
+    <evaluation_mode>0</evaluation_mode>
+    <required_files>
+    </required_files>
+    <execution_files>
+      <execution_file id="">
+        <name>execution_files.lst</name>
+        <content>vpl_run.sh
+vpl_debug.sh
+vpl_evaluate.sh
+vpl_evaluate.cases</content>
+        <encoding>0</encoding>
+      </execution_file>
+      <execution_file id="">
+        <name>execution_files/vpl_debug.sh</name>
+        <content></content>
+        <encoding>0</encoding>
+      </execution_file>
+      <execution_file id="">
+        <name>execution_files/vpl_evaluate.cases</name>
+        <content></content>
+        <encoding>0</encoding>
+      </execution_file>
+      <execution_file id="">
+        <name>execution_files/vpl_evaluate.sh</name>
+        <content></content>
+        <encoding>0</encoding>
+      </execution_file>
+      <execution_file id="">
+        <name>execution_files/vpl_run.sh</name>
+        <content></content>
+        <encoding>0</encoding>
+      </execution_file>
+    </execution_files>
+    <variations>
+    </variations>
+    <overrides>
+    </overrides>
+    <assigned_overrides>
+    </assigned_overrides>
+    <submissions>
+    </submissions>
+  </vpl>
+</activity>

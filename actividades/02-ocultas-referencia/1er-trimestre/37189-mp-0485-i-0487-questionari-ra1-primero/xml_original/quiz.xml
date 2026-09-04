@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2538" moduleid="37189" modulename="quiz" contextid="52500">
+  <quiz id="2538">
+    <name>MP 0485 i 0487 - QUESTIONARI - RA1 (primero)</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <timeopen>1727676000</timeopen>
+    <timeclose>1727679420</timeclose>
+    <timelimit>2400</timelimit>
+    <overduehandling>autosubmit</overduehandling>
+    <graceperiod>0</graceperiod>
+    <preferredbehaviour>deferredfeedback</preferredbehaviour>
+    <canredoquestions>0</canredoquestions>
+    <attempts_number>1</attempts_number>
+    <attemptonlast>0</attemptonlast>
+    <grademethod>1</grademethod>
+    <decimalpoints>2</decimalpoints>
+    <questiondecimalpoints>-1</questiondecimalpoints>
+    <reviewattempt>65536</reviewattempt>
+    <reviewcorrectness>0</reviewcorrectness>
+    <reviewmaxmarks>65552</reviewmaxmarks>
+    <reviewmarks>16</reviewmarks>
+    <reviewspecificfeedback>0</reviewspecificfeedback>
+    <reviewgeneralfeedback>0</reviewgeneralfeedback>
+    <reviewrightanswer>0</reviewrightanswer>
+    <reviewoverallfeedback>0</reviewoverallfeedback>
+    <questionsperpage>1</questionsperpage>
+    <navmethod>sequential</navmethod>
+    <shuffleanswers>1</shuffleanswers>
+    <sumgrades>25.00000</sumgrades>
+    <grade>10.00000</grade>
+    <timecreated>1727671929</timecreated>
+    <timemodified>1759488018</timemodified>
+    <password></password>
+    <subnet></subnet>
+    <browsersecurity>-</browsersecurity>
+    <delay1>0</delay1>
+    <delay2>0</delay2>
+    <showuserpicture>0</showuserpicture>
+    <showblocks>0</showblocks>
+    <completionattemptsexhausted>0</completionattemptsexhausted>
+    <completionminattempts>0</completionminattempts>
+    <allowofflineattempts>0</allowofflineattempts>
+    <subplugin_quizaccess_seb_quiz>
+    </subplugin_quizaccess_seb_quiz>
+    <quiz_grade_items>
+    </quiz_grade_items>
+    <question_instances>
+      <question_instance id="52444">
+        <quizid>2538</quizid>
+        <slot>1</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45397">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175347</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52446">
+        <quizid>2538</quizid>
+        <slot>2</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45399">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175350</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52447">
+        <quizid>2538</quizid>
+        <slot>3</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45400">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175343</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52448">
+        <quizid>2538</quizid>
+        <slot>4</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45401">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175348</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52449">
+        <quizid>2538</quizid>
+        <slot>5</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45402">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175341</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52450">
+        <quizid>2538</quizid>
+        <slot>6</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45403">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175339</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52451">
+        <quizid>2538</quizid>
+        <slot>7</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45404">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175354</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52452">
+        <quizid>2538</quizid>
+        <slot>8</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45405">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175355</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52453">
+        <quizid>2538</quizid>
+        <slot>9</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45406">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175349</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52454">
+        <quizid>2538</quizid>
+        <slot>10</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45407">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175336</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52455">
+        <quizid>2538</quizid>
+        <slot>11</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45408">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175337</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52456">
+        <quizid>2538</quizid>
+        <slot>12</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45409">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175344</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52457">
+        <quizid>2538</quizid>
+        <slot>13</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45410">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175340</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52458">
+        <quizid>2538</quizid>
+        <slot>14</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45411">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175356</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52459">
+        <quizid>2538</quizid>
+        <slot>15</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45412">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175359</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52460">
+        <quizid>2538</quizid>
+        <slot>16</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45413">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175338</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52461">
+        <quizid>2538</quizid>
+        <slot>17</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45414">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175335</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52462">
+        <quizid>2538</quizid>
+        <slot>18</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45415">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175351</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52463">
+        <quizid>2538</quizid>
+        <slot>19</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45416">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175357</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52464">
+        <quizid>2538</quizid>
+        <slot>20</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45417">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175342</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52465">
+        <quizid>2538</quizid>
+        <slot>21</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45418">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175346</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52466">
+        <quizid>2538</quizid>
+        <slot>22</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45419">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175358</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52467">
+        <quizid>2538</quizid>
+        <slot>23</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45420">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175352</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52468">
+        <quizid>2538</quizid>
+        <slot>24</slot>
+        <page>1</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45421">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175345</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+      <question_instance id="52445">
+        <quizid>2538</quizid>
+        <slot>25</slot>
+        <page>2</page>
+        <displaynumber>$@NULL@$</displaynumber>
+        <requireprevious>0</requireprevious>
+        <maxmark>1.0000000</maxmark>
+        <quizgradeitemid>$@NULL@$</quizgradeitemid>
+        <question_reference id="45398">
+          <usingcontextid>52500</usingcontextid>
+          <component>mod_quiz</component>
+          <questionarea>slot</questionarea>
+          <questionbankentryid>175353</questionbankentryid>
+          <version>$@NULL@$</version>
+        </question_reference>
+      </question_instance>
+    </question_instances>
+    <sections>
+      <section id="2538">
+        <firstslot>1</firstslot>
+        <heading></heading>
+        <shufflequestions>1</shufflequestions>
+      </section>
+    </sections>
+    <feedbacks>
+      <feedback id="5065">
+        <feedbacktext></feedbacktext>
+        <feedbacktextformat>1</feedbacktextformat>
+        <mingrade>0.00000</mingrade>
+        <maxgrade>11.00000</maxgrade>
+      </feedback>
+    </feedbacks>
+    <overrides>
+    </overrides>
+    <grades>
+    </grades>
+    <attempts>
+    </attempts>
+  </quiz>
+</activity>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="14" moduleid="38372" modulename="vpl" contextid="54083">
+  <vpl id="14">
+    <name>Lliurament Pr05 - Ejercicios de Estructuras Condicionales (I) (ENTREGAS RETRASADAS)</name>
+    <shortdescription></shortdescription>
+    <intro></intro>
+    <introformat>1</introformat>
+    <startdate>1729078200</startdate>
+    <duedate>0</duedate>
+    <maxfiles>1</maxfiles>
+    <maxfilesize>0</maxfilesize>
+    <requirednet></requirednet>
+    <password></password>
+    <grade>100</grade>
+    <visiblegrade>1</visiblegrade>
+    <usevariations>0</usevariations>
+    <variationtitle></variationtitle>
+    <basedon>0</basedon>
+    <basedonname>$@NULL@$</basedonname>
+    <run>1</run>
+    <debug>0</debug>
+    <evaluate>1</evaluate>
+    <evaluateonsubmission>0</evaluateonsubmission>
+    <automaticgrading>0</automaticgrading>
+    <maxexetime>$@NULL@$</maxexetime>
+    <restrictededitor>0</restrictededitor>
+    <example>0</example>
+    <maxexememory>$@NULL@$</maxexememory>
+    <maxexefilesize>$@NULL@$</maxexefilesize>
+    <maxexeprocesses>$@NULL@$</maxexeprocesses>
+    <jailservers></jailservers>
+    <worktype>0</worktype>
+    <timemodified>1759488050</timemodified>
+    <freeevaluations>0</freeevaluations>
+    <reductionbyevaluation>0</reductionbyevaluation>
+    <sebrequired>0</sebrequired>
+    <sebkeys></sebkeys>
+    <runscript></runscript>
+    <debugscript></debugscript>
+    <evaluator>$@NULL@$</evaluator>
+    <run_mode>0</run_mode>
+    <evaluation_mode>0</evaluation_mode>
+    <required_files>
+    </required_files>
+    <execution_files>
+      <execution_file id="">
+        <name>execution_files.lst</name>
+        <content>vpl_run.sh
+vpl_debug.sh
+vpl_evaluate.sh
+vpl_evaluate.cases</content>
+        <encoding>0</encoding>
+      </execution_file>
+      <execution_file id="">
+        <name>execution_files/vpl_debug.sh</name>
+        <content></content>
+        <encoding>0</encoding>
+      </execution_file>
+      <execution_file id="">
+        <name>execution_files/vpl_evaluate.cases</name>
+        <content></content>
+        <encoding>0</encoding>
+      </execution_file>
+      <execution_file id="">
+        <name>execution_files/vpl_evaluate.sh</name>
+        <content>#!/bin/bash
+
+# Compilación del código Java con codificación UTF-8
+echo "Compiling the code..."
+javac -encoding UTF-8 Practica05.java
+if [ $? -ne 0 ]; then
+    echo "Compilation Error"
+    exit 1
+fi
+
+grade=0
+max_grade=100
+
+# Definir los puntos por prueba para totalizar 100
+declare -A points_per_test
+points_per_test["1"]=15   # Ejercicio 1
+points_per_test["2"]=14   # Ejercicio 2
+points_per_test["3"]=14   # Ejercicio 3
+points_per_test["4a"]=14  # Ejercicio 4 (horas &lt; 40)
+points_per_test["4b"]=14  # Ejercicio 4 (horas = 40)
+points_per_test["4c"]=14  # Ejercicio 4 (horas &gt; 40)
+points_per_test["5"]=15   # Ejercicio 5
+
+# Función para ejecutar un caso de prueba
+run_test() {
+    test_number="$1"
+    test_input="$2"
+    expected_output="$3"
+
+    echo "Running Test $test_number..."
+    # Ejecutar el programa y capturar la salida
+    output=$(echo -e "$test_input" | java -Dfile.encoding=UTF-8 Practica05)
+
+    # Comparar la salida con la salida esperada
+    if [ "$output" = "$expected_output" ]; then
+        echo "Test $test_number Passed"
+        grade=$((grade + points_per_test["$test_number"]))
+    else
+        echo "Test $test_number Failed"
+        echo "Input:"
+        echo -e "$test_input"
+        echo "Expected Output:"
+        echo -e "$expected_output"
+        echo "Actual Output:"
+        echo -e "$output"
+    fi
+}
+
+# Caso de prueba 1: Ejercicio 1 - SubjectOfTheDay
+test1_input="1\nMonday"
+test1_expected_output="Please select an exercise (1-5): Enter a day of the week: The first subject of the day is PROG."
+# test1_expected_output="Please select an exercise (1-5): Enter a day of the week: The first subject of the day is HTML."
+
+
+run_test "1" "$test1_input" "$test1_expected_output"
+
+# Caso de prueba 2: Ejercicio 2 - Greetings
+test2_input="2\n22"
+test2_expected_output="Please select an exercise (1-5): Enter the hour: Good evening"
+
+run_test "2" "$test2_input" "$test2_expected_output"
+
+# Caso de prueba 3: Ejercicio 3 - DaysOfWeek
+test3_input="3\n6"
+test3_expected_output="Please select an exercise (1-5): Enter a number (1-7): The corresponding day is Saturday."
+
+run_test "3" "$test3_input" "$test3_expected_output"
+
+# Ejercicio 4 - Overtime (casos adicionales)
+
+# Caso de prueba 4a: Horas trabajadas menos de 40
+test4a_input="4\n35"
+test4a_expected_output="Please select an exercise (1-5): Enter the number of hours worked: The total weekly wage is 350."
+
+run_test "4a" "$test4a_input" "$test4a_expected_output"
+
+# Caso de prueba 4b: Horas trabajadas exactamente 40
+test4b_input="4\n40"
+test4b_expected_output="Please select an exercise (1-5): Enter the number of hours worked: The total weekly wage is 400."
+
+run_test "4b" "$test4b_input" "$test4b_expected_output"
+
+# Caso de prueba 4c: Horas trabajadas más de 40
+test4c_input="4\n45"
+test4c_expected_output="Please select an exercise (1-5): Enter the number of hours worked: The total weekly wage is 460."
+
+run_test "4c" "$test4c_input" "$test4c_expected_output"
+
+# Caso de prueba 5: Ejercicio 5 - Horoscope
+test5_input="5\n15\nMay"
+test5_expected_output="Please select an exercise (1-5): Enter the day of birth: Enter the month of birth: Your horoscope is Taurus."
+
+run_test "5" "$test5_input" "$test5_expected_output"
+
+# Mostrar la calificación final
+echo "Total Grade: $grade/$max_grade"
+
+# Salir con un código de estado que representa la calificación
+exit $((max_grade - grade))
+</content>
+        <encoding>0</encoding>
+      </execution_file>
+      <execution_file id="">
+        <name>execution_files/vpl_run.sh</name>
+        <content></content>
+        <encoding>0</encoding>
+      </execution_file>
+    </execution_files>
+    <variations>
+    </variations>
+    <overrides>
+    </overrides>
+    <assigned_overrides>
+    </assigned_overrides>
+    <submissions>
+    </submissions>
+  </vpl>
+</activity>
