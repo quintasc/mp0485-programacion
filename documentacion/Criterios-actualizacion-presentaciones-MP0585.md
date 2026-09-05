@@ -1,8 +1,8 @@
-# Guía para actualizar las presentaciones de MP0585 Programación
+# Guía para actualizar las presentaciones de MP0485 Programación
 
 ## 1. Objetivo
 
-Actualizar progresivamente las presentaciones teóricas del módulo profesional **MP0585 Programación** de 1.º de DAM/DAW para el nuevo Moodle de Monlau.
+Actualizar progresivamente las presentaciones teóricas del módulo profesional **MP0485 Programación** de 1.º de DAM/DAW para el nuevo Moodle de Monlau.
 
 Las presentaciones se entregarán en formato **PPTX** y funcionarán también como **apuntes del alumnado**. Por tanto, deben ser visuales y adecuadas para explicar en clase, pero conservar suficiente texto, rigor, ejemplos y contexto para poder estudiarlas de manera autónoma.
 
@@ -123,4 +123,28 @@ No se debe conservar un vídeo únicamente porque aparecía en el material anter
 
 ## 11. Instrucción breve para futuros encargos
 
-> Actualiza la presentación indicada siguiendo la «Guía para actualizar las presentaciones de MP0585 Programación». Contrasta la programación vigente, el material antiguo, las presentaciones ya validadas y los repositorios relacionados. Mejora contenido, orden y formato; elimina duplicidades; conserva suficiente detalle para que el PPTX funcione como apuntes; incorpora ejemplos y recursos visuales propios cuando ayuden; utiliza el nuevo logotipo de Monlau; pregunta si una duda puede cambiar el enfoque; valida técnica y visualmente el archivo antes de entregarlo.
+> Actualiza la presentación indicada siguiendo la «Guía para actualizar las presentaciones de MP0485 Programación». Contrasta la programación vigente, el material antiguo, las presentaciones ya validadas y los repositorios relacionados. Mejora contenido, orden y formato; elimina duplicidades; conserva suficiente detalle para que el PPTX funcione como apuntes; incorpora ejemplos y recursos visuales propios cuando ayuden; utiliza el nuevo logotipo de Monlau; pregunta si una duda puede cambiar el enfoque; valida técnica y visualmente el archivo antes de entregarlo.
+
+
+## 9.1. Sistema de referencias visuales
+
+Cuando existan varias propuestas del mismo tema, no se elegirá una presentación completa como modelo único. Cada referencia tendrá una función explícita:
+
+- **Contenido original:** autoridad sobre el temario, el orden general, la profundidad y los ejemplos heredados. Su diseño no se copiará.
+- **Temas Monlau validados:** autoridad sobre identidad corporativa, cabeceras, pies, tipografía, colores y continuidad del curso.
+- **Propuesta Monlau ilustrada:** referencia para metáforas visuales e ilustraciones conceptuales integradas con el contenido.
+- **Referencia Gamma:** referencia para organización editorial y para mostrar código en contenedores oscuros que simulan una pantalla.
+- **Referencia Notebook:** referencia para variedad de composiciones, explicación visual y densidad suficiente para estudiar.
+- **Programación 2026-2027:** autoridad sobre alcance curricular, resultados de aprendizaje y secuenciación.
+
+El resultado debe conservar el contenido útil de la presentación original y trasladarlo al estilo Monlau. No debe copiar la identidad visual de Gamma o Notebook.
+
+### Reglas de composición
+
+- No convertir todas las diapositivas en rejillas de tarjetas o cajas.
+- Utilizar una composición plana cuando título, texto, código e imagen puedan organizarse directamente sobre el lienzo.
+- Emplear cajas solo cuando agrupen contenido que semánticamente forma una unidad.
+- Diferenciar visualmente cajas que cumplen funciones distintas; las cajas equivalentes deben compartir tratamiento.
+- Reservar los contenedores oscuros para código o salidas de consola que deban leerse o ejecutarse.
+- Incorporar ilustraciones cuando aclaren una metáfora, un proceso o una diferencia conceptual; evitar ilustraciones decorativas.
+- Mantener suficiente explicación para que la presentación pueda funcionar como apuntes autónomos.
