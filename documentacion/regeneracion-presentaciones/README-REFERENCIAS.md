@@ -42,14 +42,10 @@ La presentación final debe poder utilizarse para explicar en clase y también c
 
 > Regenera la presentación indicada siguiendo `documentacion/Criterios-actualizacion-presentaciones-MP0485.md` y este manifiesto. Usa PROGRAMACION para el alcance; CONTENIDO_TEMA03 como autoridad de contenido; ESTILO_01 y ESTILO_02 como autoridad visual Monlau; MONLAU_ILUSTRADA solo para ilustraciones conceptuales; GAMMA_CODIGO para la organización editorial y los bloques oscuros de código; y NOTEBOOK_COMPOSICION para variar las composiciones. No copies la identidad visual de Gamma o Notebook ni conviertas toda la presentación en cajas. Conserva suficiente explicación para que funcione como apuntes.
 
-## Incorporación del archivo histórico
+## Contenido original del curso 2025-2026
 
-Los materiales procedentes de la carpeta local:
-
-`2026_2027/M3/CONTENIDOS/MP 0485 - APUNTS DE CLASSE CURS 2526-20260903 (DAW)`
-
-se almacenarán, conservando su estructura de subcarpetas, bajo:
+Los PDF procedentes de la carpeta local de apuntes se almacenan directamente, sin subcarpetas, en:
 
 `contenido-original/curso-2025-2026/`
 
-Los nombres originales se conservarán salvo que resulten ambiguos. Si se normaliza alguno, deberá registrarse la equivalencia en un índice dentro de esa carpeta.
+Los nombres se han normalizado para facilitar su ordenación y uso por personas y sistemas de IA. Cada nombre conserva el número de tema, el RA y una descripción reconocible. La carpeta contiene 20 PDF.
